@@ -20,6 +20,10 @@ let rec getUserInputRecursive () =
 
 let getUserInput = getUserInputRecursive ()
 
+(*
+    Just a proxy test.
+    Imagine a card game where the user can `hit` or `stand`...
+*)
 [<Fact>]
 let ``User enters Space, then Tab, then letter, returns AResult abc`` () =
     let inputs = [" "; "    "; "abc"]
